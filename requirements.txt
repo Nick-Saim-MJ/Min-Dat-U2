@@ -1,12 +1,14 @@
-streamlit==1.56.0
-pandas==3.0.1
-numpy==2.4.4
-scikit-learn==1.8.0
-scipy==1.17.1
-plotly==6.6.0
-xgboost==3.2.0
-lightgbm==4.6.0
-statsmodels==0.14.6
-pmdarima==2.1.1
-openpyxl==3.1.5
-pyarrow==24.0.0
+# Core dependencies
+numpy
+pandas
+matplotlib
+seaborn
+streamlit
+scipy
+scikit-learn
+reportlab
+
+# Optional but supported if available
+xgboost
+lightgbm
+plotly
